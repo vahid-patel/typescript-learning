@@ -51,3 +51,9 @@ type CreateUserFn = (name: string, age: number) => { id: number; name: string };
 const createUser: CreateUserFn = (name, age) => {
   return { id: Math.floor(Math.random() * 1000), name };
 };
+
+type logger = (message : string) => void
+
+const logMessag : logger = (msg) => {
+    console.log(msg)
+}

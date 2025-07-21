@@ -33,3 +33,6 @@ console.log(add(5, 3));
 const createUser = (name, age) => {
     return { id: Math.floor(Math.random() * 1000), name };
 };
+const logMessag = (msg) => {
+    console.log(msg);
+};
